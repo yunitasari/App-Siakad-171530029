@@ -22,7 +22,7 @@ public class FrMenu extends javax.swing.JFrame {
     
     public FrMenu() {
         initComponents();
-        Image image = new ImageIcon(getClass().getResource("")).getImage();
+        Image image = new ImageIcon(getClass().getResource("/Image/Admin-Schoolar.png")).getImage();
                         setIconImage(image);
         this.setExtendedState(this.getExtendedState() | FrMenu.MAXIMIZED_BOTH);
         

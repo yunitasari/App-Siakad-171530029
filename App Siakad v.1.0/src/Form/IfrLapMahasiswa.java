@@ -57,7 +57,7 @@ public class IfrLapMahasiswa extends javax.swing.JInternalFrame {
     
     private void cetakLaporan1(){
         String pth = System.getProperty("user.dir") + "/laporan/rpMahasiswa1.jrxml";
-        String logo = System.getProperty("user.dir") + "/laporan";
+        String logo = System.getProperty("user.dir") + "/laporan/";
         try{
             Map<String, Object> parameters = new HashMap<>();
             _Cnn = null;
@@ -75,7 +75,7 @@ public class IfrLapMahasiswa extends javax.swing.JInternalFrame {
     
     private void cetakLaporan2(){
         String pth = System.getProperty("user.dir") + "/laporan/rpMahasiswa2.jrxml";
-        String logo = System.getProperty("user.dir") + "/laporan";
+        String logo = System.getProperty("user.dir") + "/laporan/";
         vkd_prodi = KeyProdi[cmbProdi.getSelectedIndex()];
         try{
             Map<String, Object> parameters = new HashMap<>();

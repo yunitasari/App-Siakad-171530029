@@ -214,11 +214,7 @@ public class IfrTahunAngkatan extends javax.swing.JInternalFrame {
 
         txtThAngkatan.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true), "Tahun Angkatan :"));
         txtThAngkatan.setOpaque(false);
-        txtThAngkatan.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtThAngkatanActionPerformed(evt);
-            }
-        });
+        
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
